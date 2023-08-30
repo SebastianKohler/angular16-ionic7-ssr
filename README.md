@@ -1,6 +1,10 @@
 # Angular16Ionic7Ssr
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0. It showcases a runtime error that IonicServerModule throws in the server side terminal in Angular 16 with SSR enabled.
+
+## Run SSR locally
+
+Run `npm run build:ssr`. Run `npm run serve:ssr`. Navigate to `http://localhost:4000/`. You need to manually run the build and serve commands again for changes in the source files to take effect.
 
 ## Development server
 
